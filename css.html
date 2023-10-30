@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS3 Examples</title>
+    <style>
+        /* CSS3 Syntax and Inclusion */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* CSS3 Color */
+        .red-text {
+            color: red;
+        }
+
+        /* CSS3 Background */
+        .yellow-bg {
+            background-color: yellow;
+        }
+
+        /* CSS3 Fonts */
+        .custom-font {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        /* CSS3 Tables */
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        /* CSS3 Lists */
+        ul {
+            list-style-type: square;
+        }
+
+        /* CSS3 Selectors */
+        h2 + p {
+            font-weight: bold;
+        }
+
+        /* CSS3 Pseudo-Classes */
+        a:link {
+            color: blue;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* CSS3 Pseudo-Elements */
+        p::first-line {
+            font-weight: bold;
+        }
+
+        p::first-letter {
+            font-size: 150%;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS3 Examples</h1>
+
+    <p>This is an example of CSS3 syntax and inclusion.</p>
+
+    <p class="red-text">This text is red.</p>
+
+    <p class="yellow-bg">This has a yellow background.</p>
+
+    <p class="custom-font">This text uses a custom font.</p>
+
+    <h2>Table Example</h2>
+    <table>
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+        </tr>
+        <tr>
+            <td>Row 1, Cell 1</td>
+            <td>Row 1, Cell 2</td>
+        </tr>
+        <tr>
+            <td>Row 2, Cell 1</td>
+            <td>Row 2, Cell 2</td>
+        </tr>
+    </table>
+
+    <h2>List Example</h2>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+    </ul>
+
+    <p>This is a paragraph that's affected by a CSS3 selector.</p>
+
+    <a href="https://www.example.com">This is a link</a>
+
+    <p>This is a paragraph with pseudo-elements. It has a <span class="red-text">red</span> first letter and a <span class="custom-font">bold</span> first line.</p>
+</body>
+</html>
